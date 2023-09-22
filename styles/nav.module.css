@@ -1,0 +1,14 @@
+.navItems:hover{
+  background-color: aliceblue;
+}
+.mobileNav{
+  display: none;
+}
+@media screen and (max-width: 720px){
+  .navLinksContainer{
+    display: none;
+  }
+  .mobileNav{
+    display: block;
+  }
+}

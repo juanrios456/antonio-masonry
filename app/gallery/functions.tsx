@@ -1,0 +1,2 @@
+import { shuffleImages } from "./page";
+
