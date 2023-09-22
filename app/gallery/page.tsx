@@ -23,23 +23,6 @@ let curveAlt = [
   'Curve 4',
 ];
 
-export function shuffleImages(array:any){
-  var arrayLength = array.length;
-  var currentElementPosition;
-  var itemChooser;
-  
-  while(arrayLength){
-    //Picks a remaining element in the array
-    itemChooser = Math.floor(Math.random() *arrayLength--);
-    
-    //Swaps new element with current element in array position
-    currentElementPosition = array[arrayLength];
-    array[arrayLength] = array[itemChooser];
-    array[itemChooser] = currentElementPosition;
-  }
-  return array;
-}
-
 function buildImageArrayJPG(altList:any, arrayName:any, path:any){
   let i = 1
   
