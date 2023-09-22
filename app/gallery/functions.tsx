@@ -1,2 +1,0 @@
-import { shuffleImages } from "./page";
-
