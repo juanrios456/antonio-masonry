@@ -23,7 +23,7 @@ export function Footer(){
         py={12}
       >
         <Link href={'/'}>
-        <Image src='/Logo-final.png' alt='Logo that takes you to the homepage'
+        <Image src='/Logo-Final.png' alt='Logo that takes you to the homepage'
           width={500}
           height={500}
           style={{width: 'auto', height: '80px'}}
