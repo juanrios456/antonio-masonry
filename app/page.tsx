@@ -17,8 +17,9 @@ export const metadata: Metadata = {
       url: 'https://www.antoniomasonryandstucco.com/Logo-Final.png',
       width: 640,
       height: 500,
-      alt: 'Logo of Antonios Masonry and Stucco',
-    },
+      alt: 'Logo of Antonios Masonry and Stucco'
+    }
+  }
 }
 
 export default function Home() {
