@@ -8,11 +8,9 @@ import { Footer } from '@components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: {
-    default: 'Antonio Masonry |',
-    template: 'Antonio Masonry |'
-  },
-  }
+  title:'Image Gallery',
+  description: 'Image gallery for Antonio masonry and stucco showcasing the many jobs that have been completed.',
+}
 
 export default function RootLayout({
   children,
