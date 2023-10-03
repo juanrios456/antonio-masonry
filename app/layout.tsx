@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Antonio Masonry Topeka, Kansas',
+    default: '%s | Antonio Masonry',
     template: '%s | Antonio Masonry'
   },
   }
