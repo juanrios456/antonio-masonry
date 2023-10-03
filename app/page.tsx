@@ -5,7 +5,7 @@ import { ContactForm } from '@components/ContactForm'
 import type { Metadata } from 'next'
   
 export const metadata: Metadata = {
-  title: 'Home, Contact',
+  title: 'Home, Contact | Antonio Masonry Topeka, Kansas',
   description: 'Construction contractor that does masonry work including stone, stucco, brick, and block work. With over 15 years of experience we have worked with big and small projects. We do work with commercial projects, and residential projects. ',
   openGraph:{
     title: 'Antonio Masonry and Stucco',
