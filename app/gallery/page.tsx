@@ -1,6 +1,12 @@
 'use client'
 import { Container, Text, SimpleGrid, Heading, Box, Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 import Image from 'next/image'
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Image Gallery',
+  description: 'Image gallery for Antonio masonry and stucco showcasing the many jobs that have been completed.'
+}
 
 let stoneImageArray:any = [];
 let curveImageArray:any = []
